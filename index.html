@@ -9,23 +9,41 @@
 
         <link rel="stylesheet" href="style.css">
 
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+        <!-- CSS Reset -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+        <!-- Milligram CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
     </head>
 
     <body>
-        <div id = 'container'>
+        <div id = 'container' class = 'row'>
 
-            <h1> Hello World! </h1>
+            <div id = 'type' class = 'column column-50'>
 
-            <div id='content'>
+                <h1> The Boston College FactBook </h1>
                 
+                <button id='generate' class='button'> GET A RANDOM FACT ABOUT BOSTON COLLEGE </button>
+
+                <div id='content'>
+                </div>
+
             </div>
 
-            <img>
+            <div id = 'pics' class = 'column column-50'>
 
-            <a></a>
+                <img src = 'src/gasson.jpeg' alt = 'Gasson'>
 
-            <button id='generate' class='button'>
-            </button>
+                <img src = 'src/flags.jpeg' alt = 'Flags'>
+
+                <a href="https://www.bc.edu"> For more information check out the BC Website here!! </a>
+
+            </div>
+
 
         </div>  
     </body>
